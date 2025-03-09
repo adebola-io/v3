@@ -1,0 +1,23 @@
+{
+  "name": "v3",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5229",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@adbl/cells": "^0.0.11",
+    "@adbl/unfinished": "^0.0.16",
+    "@adbl/unfinished-ssg": "^0.0.4",
+    "@tailwindcss/vite": "^4.0.12",
+    "tailwindcss": "^4.0.12"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "typescript": "^5.5.2",
+    "vite": "^6.2.1"
+  }
+}
