@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@adbl/cells": "^0.0.11",
-    "@adbl/unfinished": "^0.0.16",
+    "@adbl/unfinished": "https://pkg.pr.new/adebola-io/unfinished/@adbl/unfinished@2432745",
     "@adbl/unfinished-ssg": "^0.0.4",
     "@tailwindcss/vite": "^4.0.12",
     "tailwindcss": "^4.0.12"

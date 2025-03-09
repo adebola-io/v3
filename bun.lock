@@ -5,9 +5,9 @@
       "name": "v3",
       "dependencies": {
         "@adbl/cells": "^0.0.11",
-        "@adbl/unfinished": "^0.0.16",
         "@adbl/unfinished-ssg": "^0.0.4",
         "@tailwindcss/vite": "^4.0.12",
+        "@adbl/unfinished": "https://pkg.pr.new/adebola-io/unfinished/@adbl/unfinished@2432745",
         "tailwindcss": "^4.0.12",
       },
       "devDependencies": {
@@ -20,7 +20,7 @@
   "packages": {
     "@adbl/cells": ["@adbl/cells@0.0.11", "", {}, "sha512-TtqqWDHMCOxX/EYJz11zxMOyOlg/WHcy6lXwxqE8PJh6mUC08CpoyXswGn3QyRn7/kafwhZ4JjU73Z0kQ48rYA=="],
 
-    "@adbl/unfinished": ["@adbl/unfinished@0.0.16", "", { "dependencies": { "@adbl/cells": "^0.0.11", "csstype": "^3.1.3" } }, "sha512-6VfNAJuwcsJ77mlNGMHzbzbUISg1hcBiXgkL3CW6y9aYuXfro5flaVb4wkqcK9E4Gze65rZWY+J1V8s+/81tww=="],
+    "@adbl/unfinished": ["@adbl/unfinished@https://pkg.pr.new/adebola-io/unfinished/@adbl/unfinished@2432745", { "dependencies": { "@adbl/cells": "^0.0.11", "csstype": "^3.1.3" } }],
 
     "@adbl/unfinished-ssg": ["@adbl/unfinished-ssg@0.0.4", "", { "dependencies": { "domhandler": "^5.0.3", "htmlparser2": "^10.0.0" }, "peerDependencies": { "@adbl/unfinished": "0.0.16" } }, "sha512-FqNK6hxZjR3XiLgdhqJy9OZfW8FDe/203mprSb8Of0ec6iwX77hkOyHZDUBOrnxiP1Lb8hhvmo25MGN7tzQ8UQ=="],
 
