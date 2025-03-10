@@ -6,14 +6,14 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   resolve: {
-    alias: { '@': path.resolve(__dirname, './source') },
+    alias: { '@': path.resolve(__dirname, './') },
   },
   plugins: [
     tailwindcss(),
     unfinished(),
     unfinishedSSG({
-      pages: ['/'],
-      routerModulePath: './source/router.ts',
+      pages: ['/', '/works', '/contact', '/random-notes', '/playground'],
+      routerModulePath: './router.ts',
     }),
   ],
 });
