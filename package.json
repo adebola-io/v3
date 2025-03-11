@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "@adbl/cells": "^0.0.11",
-    "@adbl/unfinished": "https://pkg.pr.new/adebola-io/unfinished/@adbl/unfinished@2038127",
-    "@adbl/unfinished-ssg": "https://pkg.pr.new/adebola-io/unfinished/@adbl/unfinished-ssg@2038127",
+    "@adbl/unfinished": "https://pkg.pr.new/adebola-io/unfinished/@adbl/unfinished@3b21c09",
+    "@adbl/unfinished-ssg": "https://pkg.pr.new/adebola-io/unfinished/@adbl/unfinished-ssg@3b21c09",
     "@tailwindcss/vite": "^4.0.12",
     "tailwindcss": "^4.0.12"
   },
