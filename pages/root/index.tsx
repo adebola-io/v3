@@ -1,7 +1,7 @@
 import { For } from '@adbl/unfinished';
-import { useRouter } from '@adbl/unfinished/router';
+import { type RouteComponent, useRouter } from '@adbl/unfinished/router';
 
-export default function RootLayout() {
+const RootLayout: RouteComponent = () => {
   const { Link, Outlet } = useRouter();
   const links = [
     {
@@ -45,4 +45,12 @@ export default function RootLayout() {
       <Outlet />
     </main>
   );
-}
+};
+
+RootLayout.metadata = {
+  charset: 'utf-8',
+  lang: 'en',
+  viewport: 'width=device-width, initial-scale=1',
+};
+
+export default RootLayout;
