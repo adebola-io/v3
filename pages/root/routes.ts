@@ -1,16 +1,17 @@
-import { defineRoute } from '@adbl/unfinished/router';
+import { defineRoute, lazy } from '@adbl/unfinished/router';
 import RootLayout from '.';
 import Home from './home';
-import Works from './works';
-import Contact from './contact';
-import RandomNotes from './random-notes';
-import Playground from './playground';
 
 export const rootRoutes = defineRoute({
   name: 'Website Root',
   path: '',
   redirect: '/home',
   component: RootLayout,
+  metadata: {
+    charset: 'utf-8',
+    lang: 'en',
+    viewport: 'width=device-width, initial-scale=1',
+  },
   children: [
     {
       name: 'Website Home',
@@ -20,22 +21,22 @@ export const rootRoutes = defineRoute({
     {
       name: 'Website Works',
       path: 'works',
-      component: Works,
+      component: lazy(() => import('./works/index.tsx')),
     },
     {
       name: 'Website Contact',
       path: 'contact',
-      component: Contact,
+      component: lazy(() => import('./contact.tsx')),
     },
     {
       name: 'Website Random Notes',
       path: 'random-notes',
-      component: RandomNotes,
+      component: lazy(() => import('./random-notes/index.tsx')),
     },
     {
       name: 'Website Playground',
       path: 'playground',
-      component: Playground,
+      component: lazy(() => import('./playground/index.tsx')),
     },
   ],
 });

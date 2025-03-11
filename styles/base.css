@@ -30,6 +30,7 @@
 
 body {
   color: #525252;
+  /* user-select: none; */
   letter-spacing: -1px;
   font-family: 'Liga DM Mono', 'DM Mono', Consolas, monospace, sans-serif;
   font-size: 1.1rem;

@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "@adbl/cells": "^0.0.11",
-    "@adbl/unfinished": "https://pkg.pr.new/adebola-io/unfinished/@adbl/unfinished@d67f2c9",
-    "@adbl/unfinished-ssg": "^0.0.4",
+    "@adbl/unfinished": "https://pkg.pr.new/adebola-io/unfinished/@adbl/unfinished@2038127",
+    "@adbl/unfinished-ssg": "https://pkg.pr.new/adebola-io/unfinished/@adbl/unfinished-ssg@2038127",
     "@tailwindcss/vite": "^4.0.12",
     "tailwindcss": "^4.0.12"
   },

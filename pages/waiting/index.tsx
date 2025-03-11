@@ -48,7 +48,8 @@ export function Link(props: LinkProps) {
         target="__blank"
         class={[
           'w-full h-full grid grid-center',
-          'duration-[var(--duration)] [transition-property:color,scale] hover:text-[#353535] hover:scale-110',
+          'transition-[color,scale] duration-[var(--duration)]',
+          'hover:text-[#353535] hover:scale-110',
         ]}
         href={props.url}
       >
