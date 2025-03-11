@@ -7,11 +7,6 @@ export const rootRoutes = defineRoute({
   path: '',
   redirect: '/home',
   component: RootLayout,
-  metadata: {
-    charset: 'utf-8',
-    lang: 'en',
-    viewport: 'width=device-width, initial-scale=1',
-  },
   children: [
     {
       name: 'Website Home',
