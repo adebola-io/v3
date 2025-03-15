@@ -1,6 +1,7 @@
 import type { RouteComponent } from 'retend/router';
+import type { PageMeta } from 'retend-server/client';
 
-const Contact: RouteComponent = () => {
+const Contact: RouteComponent<PageMeta> = () => {
   return <div>This is the contact page.</div>;
 };
 

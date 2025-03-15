@@ -1,6 +1,7 @@
 import type { RouteComponent } from 'retend/router';
+import type { PageMeta } from 'retend-server/client';
 
-const Playground: RouteComponent = () => {
+const Playground: RouteComponent<PageMeta> = () => {
   return <div>This is the playground page.</div>;
 };
 

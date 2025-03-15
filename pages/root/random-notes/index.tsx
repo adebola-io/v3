@@ -1,6 +1,7 @@
 import type { RouteComponent } from 'retend/router';
+import type { PageMeta } from 'retend-server/client';
 
-const RandomNotes: RouteComponent = () => {
+const RandomNotes: RouteComponent<PageMeta> = () => {
   return <div>This is the random page.</div>;
 };
 

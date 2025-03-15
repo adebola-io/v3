@@ -1,7 +1,8 @@
 import { For } from 'retend';
 import { type RouteComponent, useRouter } from 'retend/router';
+import type { PageMeta } from 'retend-server/client';
 
-const RootLayout: RouteComponent = () => {
+const RootLayout: RouteComponent<PageMeta> = () => {
   const { Link, Outlet } = useRouter();
   const links = [
     {
