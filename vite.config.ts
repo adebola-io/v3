@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 import path from 'node:path';
-import { unfinished } from '@adbl/unfinished/plugin';
-import { unfinishedSSG } from '@adbl/unfinished-ssg/plugin';
+import { retend } from 'retend/plugin';
+import { retendSSG } from 'retend-server/plugin';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
@@ -10,8 +10,8 @@ export default defineConfig({
   },
   plugins: [
     tailwindcss(),
-    unfinished(),
-    unfinishedSSG({
+    retend(),
+    retendSSG({
       pages: ['/', '/works', '/contact', '/random-notes', '/playground'],
       routerModulePath: './router.ts',
     }),

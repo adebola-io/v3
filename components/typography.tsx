@@ -1,4 +1,4 @@
-import type { JSX } from '@adbl/unfinished/jsx-dev-runtime';
+import type { JSX } from 'retend/jsx-dev-runtime';
 
 type HeadingTextProps = JSX.IntrinsicElements['h1'];
 

@@ -1,5 +1,5 @@
 /// <reference types="vite/client" />
-import { hydrate } from '@adbl/unfinished-ssg/client';
+import { hydrate } from 'retend-server/client';
 import { createRouter } from './router';
 
 hydrate(createRouter).then(() => {
@@ -10,7 +10,7 @@ hydrate(createRouter).then(() => {
 // STATIC MODE. Will not add any client-side hydration.
 // -----------------------------------------------------------------------------
 // if (import.meta.env.DEV) {
-//   const { hydrate } = await import('@adbl/unfinished-ssg/client');
+//   const { hydrate } = await import('retend-server/client');
 //   const { createRouter } = await import('./router');
 
 //   const router = await hydrate(createRouter);

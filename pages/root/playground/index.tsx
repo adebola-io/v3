@@ -1,4 +1,4 @@
-import type { RouteComponent } from '@adbl/unfinished/router';
+import type { RouteComponent } from 'retend/router';
 
 const Playground: RouteComponent = () => {
   return <div>This is the playground page.</div>;

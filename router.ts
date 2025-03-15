@@ -1,4 +1,4 @@
-import { createWebRouter } from '@adbl/unfinished/router';
+import { createWebRouter } from 'retend/router';
 import { waitingRoute } from './pages/waiting/routes';
 import { rootRoutes } from './pages/root/routes';
 

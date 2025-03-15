@@ -1,4 +1,4 @@
-import { defineRoute } from '@adbl/unfinished/router';
+import { defineRoute } from 'retend/router';
 import Start from '.';
 
 export const waitingRoute = defineRoute({

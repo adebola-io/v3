@@ -14,7 +14,7 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "jsx": "react-jsx",
-    "jsxImportSource": "@adbl/unfinished",
+    "jsxImportSource": "retend",
     "baseUrl": ".",
     "paths": {
       "@/*": ["./*"]

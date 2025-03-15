@@ -1,4 +1,4 @@
-import { defineRoute, lazy } from '@adbl/unfinished/router';
+import { defineRoute, lazy } from 'retend/router';
 import RootLayout from '.';
 import Home from './home';
 

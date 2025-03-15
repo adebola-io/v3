@@ -3,7 +3,7 @@ import { GitHubIcon } from '@/components/icons/github';
 import { ResumeIcon } from '@/components/icons/resume';
 import { TwitterIcon } from '@/components/icons/twitter';
 import { HugeText } from '@/components/typography';
-import type { JSX } from '@adbl/unfinished/jsx-runtime';
+import type { JSX } from 'retend/jsx-runtime';
 
 export default function Start() {
   return (
